@@ -38,7 +38,7 @@ export default ReactVuexStore.createModule<ModuleNameStoreState, RootStoreState>
     },
     mutations: {
         setSomeStringVariable(store, payload: ModuleNameStoreState['someStringVariable']) {
-            store.exchange.someStringVariable = payload;
+            store.moduleName.someStringVariable = payload;
         }
     },
     actions: {
